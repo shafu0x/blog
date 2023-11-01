@@ -23,9 +23,15 @@ Consider image recognition as an example. We struggle to write a traditional alg
 
 In summary, there are three categories of knowledge:
 
-Category 1: Fully understood - We can code it from scratch.
-Category 2: Pragmatically understood - We can code something that generates its code from scratch.
-Category 3: Not understood - We can't represent it in code at all.
+- Category 1: Fully understood - We can code it from scratch.
+
+- Category 2: Pragmatically understood - We can code something that generates its code from scratch.
+
+- Category 3: Not understood - We can't represent it in code at all.
 Chess falls into Category 1, object detection falls into Category 2, and intelligence resides in Category 3.
 
 An intriguing question arises concerning the theory of knowledge itself: Are there concepts that necessarily belong to only one category?
+
+From a human perspective, our goal is to move knowledge from Category 3 to Category 2 and ultimately from Category 2 to Category 1. 
+
+The term "pragmatically understood" in Category 2 needs explaining. In Category 2, we have practical solutions like neural networks that can perform tasks like object detection, even though we might not fully comprehend how they work. When looking at a Convolutional Layer in a neural network, it's challenging to precisely describe what's happening. While visualization tools can help us gain insights, comparing this to a Category 1 program reveals notable differences.
